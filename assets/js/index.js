@@ -115,9 +115,9 @@ function count() {
 	else {
 		console.log("empezaste a escribir");
 		stats.style.display = "block";
-		char.innerHTML = text.value.length + " Caracteres<br>" //char
+		char.innerHTML = text.value.length + " Caracteres" //char
 		//words.innerHTML = text.value.trim().split(/\s+/).length + " Words"; words
-		lines.innerHTML = text.value.split("\n").length + " Lineas<br>"; //lines
+		lines.innerHTML = text.value.split("\n").length + " Lineas"; //lines
 		symbols.innerHTML = text.value.split(/[!@#$%^&*+()_={};:'"<>.,?/-]/).length + " Symbolos"
 	}
 }
@@ -125,15 +125,40 @@ text.addEventListener("input", count);
 
 /* FIN CONTADOR */
 
-const $navbar = document.querySelector('.navbar')
+/* BOTON DEL CONTADOR */
 
-window.addEventListener('scroll',e=>{
+const $botonContador = document.querySelector('.botonContador')
 
-    if(scrollY > 10) {
-        $navbar.classList.add('navbar-fix')
+const $cuerpoContador = document.querySelector('.cuerpo')
+const $contenedorContador = document.querySelector('.contenedor')
+const $textareaContador = document.querySelector('#text')
+
+
+window.addEventListener('click',(e) => {
+    if(e.target.matches('.botonContador') || e.target.matches('.img-contador')) {
+        $cuerpoContador.classList.remove('hiddenContador')
+        $contenedorContador.classList.remove('hiddenContador')
+        $textareaContador.value = ''
+
+       char.innerHTML = "0 Caracteres" //char
+		lines.innerHTML = "0 Lineas" //lines
+		symbols.innerHTML = "0 Symbolos"
+       
+       
+    }
+
+
+
+
+    if(e.target.matches('.cierraContador')) {
+        $cuerpoContador.classList.add('hiddenContador')
+        $contenedorContador.classList.add('hiddenContador')
         
     }
-    else { 
-        $navbar.classList.remove('navbar-fix')
-    }
- })
+})
+
+
+
+
+
+/* FIN BOTON DEL CONTADOR */

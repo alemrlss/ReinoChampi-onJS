@@ -31,11 +31,8 @@
         <!-- BARRA DE NAVEGACION SECCIONES -->
         <div
           class="collapse navbar-collapse sections-nav-bar"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            
+          id="navbarSupportedContent"  >
+                <ul class="navbar-nav me-auto mbc-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a class="nav-link active"
                 href="#"
@@ -99,25 +96,26 @@
     
      <!-- SECTION INICIO -->
     <div id="section1" class="section section-1">
+     
       <div class="inicio">
-        <br />
+        <br /> 
+        <div class="botonContador"> <img class="img-contador"  src="/assets/img/icono-contador.png" alt=""></div>
         <img src="/assets/img/inicio.png" alt="" class="logo-inicio" />
-
+         
         <!-- CONTADOR -->
-        <div class="cuerpo">
-          <div class="contenedor">
-              <div class="titulo">Contador</div>
-              <textarea id="text" placeholder="Texto a Contar..."></textarea>
-              <div class="status-ex">
-                  <span id="char"></span>
-                  <span id="words"></span>
-                  <span id="lines"></span>
-                  <span id="symbols"></span>
-              </div>
-          </div>
-      </div>
-        <br /><br /><br /><br />
-      </div>
+                      <div class="cuerpo hiddenContador">
+                        <div class="contenedor hiddenContador">
+                          <div class="titulo">Contador  <img class="cierraContador" src="/assets/img/img-x-contador.png" width="20px" height="20px" alt=""></div>
+                            <textarea id="text" placeholder="Texto a Contar..."></textarea>
+                            <div class="status-ex">
+                                <span id="char">0 Caracteres</span><br>
+                                <span id="words"></span>
+                                <span id="lines">0 Lineas</span><br>
+                                <span id="symbols">0 Symbolos</span>
+                            </div>
+                        </div>
+                    </div>
+   </div>
 
       <aside class="aside">
         <div class="div-img">

@@ -11,7 +11,9 @@
 .nav-item a {
  color: rgb(247, 74, 74) !important;
 }
-
+.navbar {
+    box-shadow: 5px 5px 15px gray;
+}
 .pr {
     position: absolute !important;
     padding-left: 515px;
@@ -238,19 +240,73 @@ padding-top: 20px;
         height: 180px;
         position: absolute;
         text-align:  left;
-        margin-left: 5px;
-        background-color: rgb(224, 224, 224);
-        border-style: solid;
+        background-color: rgb(202, 202, 202);
+        box-shadow: 5px 5px 20px rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: 30%;
+        margin-top: 2%;
+        width: 280px;
+
+    }
+    .contenedor { 
+        width: 280px;
+        text-align: center;
+        z-index: 900;
     }
 
     .titulo { 
+        font-style: italic;
+        font-size: 24px;
+        font-family:cursive;
         text-align: center;
         font-weight: bold;
         padding-top: 2px;
         padding-bottom: 2px;
     }
 
+    .botonContador {
+        height: 90px;
+        width: 120px;
+        border-radius: 50px;
+        background-color:rgb(253, 253, 253) ;
+        box-shadow: 10px 10px 30px rgb(0, 0, 0);
+        cursor:pointer;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 20px;
+    }
+    .img-contador { 
+        padding-top: 13px;
+        width: 80px;
+        height: 60px;
+      
+    }
     /* CONTADOR--- para que el textarea no se redimensione */
     #text {
         resize: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 255px;
     }
+
+    .status-ex span { 
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    .status-ex {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .hiddenContador { 
+        opacity: 0.5;
+        visibility: hidden;
+    }
+
+    .cierraContador { 
+        cursor: pointer;
+   
+    }
+
+   

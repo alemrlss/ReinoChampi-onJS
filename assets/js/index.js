@@ -124,3 +124,16 @@ function count() {
 text.addEventListener("input", count);
 
 /* FIN CONTADOR */
+
+const $navbar = document.querySelector('.navbar')
+
+window.addEventListener('scroll',e=>{
+
+    if(scrollY > 10) {
+        $navbar.classList.add('navbar-fix')
+        
+    }
+    else { 
+        $navbar.classList.remove('navbar-fix')
+    }
+ })

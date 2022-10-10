@@ -214,18 +214,25 @@ padding-top: 20px;
 }
 
 .img_equipo_1 {
-    width: 300px;
+    width: 170px;
     height: 150px;
-    margin-left: 12%;   
-    margin-top: 2%;
 
 }
-.img_equipo_2 {
-    width: 300px;
-    height: 150px;
-    margin-left: 12%;   
-    margin-top: 2%;
 
+.imgPeach{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.img_equipo_2 {
+    width: 170px;
+    height: 150px;
+
+}
+
+.imgYoshi{
+    text-align: center;
+    margin-top: 4%;
 }
 
 .card-body { 

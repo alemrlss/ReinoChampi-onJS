@@ -1,0 +1,256 @@
+
+/* FONDO DE EL NAVBAR. */
+.navbar-bg { 
+    background-color: rgb(245, 243, 243) !important;
+}
+/*  */
+.nav-item {
+    font-weight: bold !important; 
+    font-size: 20px;
+}
+.nav-item a {
+ color: rgb(247, 74, 74) !important;
+}
+
+.pr {
+    position: absolute !important;
+    padding-left: 515px;
+    padding-top: 40px;
+    
+}
+
+/* PARA CENTRALIZAR EL NAVBAR. (FORMA INCORRECTA). */
+.sections-nav-bar {
+
+   padding-left: 280px;
+
+  
+}
+
+/* SECCIONES DEL DOCUMENTO PRINCIPAL */
+.section {
+    text-align: center;
+  
+}
+
+/* ESTILOS AL RELOJ */
+.reloj{
+    background-color:  rgb(245, 243, 243);
+    margin-right: 20px;
+    height: 60px;
+    width: 140px;
+    border-style:inset;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+/* ESTILOS A LA SECCION 1 */
+.section-1 {
+    display:flex; 
+    height: 800px;
+}
+/* ESTILOS A LA SECCION 1: ASIDE. */
+.aside { 
+    
+    background-color: rgba(60, 151, 0, 0.911);
+     flex:0.3;
+  
+
+    font-family: Verdana;
+    border-style:double;
+    
+}
+.aside h3 {
+    font-size: 30px !important;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.aside img { 
+    opacity: 30%;
+    width: 160px;
+    height: 160px;
+ transition: 2s ease-out;
+}
+.aside img:hover {
+    opacity: 100%; 
+    width: 190px;
+    height: 190px;
+ transition: 0.5s ease;
+}
+.div-img {
+    width: 100%;
+    height: 160px;
+    margin-top: 25px;
+}
+
+
+.alerta-aside-1{
+    margin-top: 85px;
+    margin-left: 410px;
+    position:absolute;
+    z-index: 999;
+  font-family: serif;
+  font-weight: bold;
+  transition: 0.4s ease;
+
+}
+.alerta-aside-2{
+    margin-top: 280px;
+    margin-left: 520px;
+    position:absolute;
+    z-index: 999;
+  font-family: serif;
+  font-weight: bold;
+  transition: 0.4s ease;
+
+}
+.alerta-aside-3{
+    margin-top: 460px;
+    margin-left: 270px;
+    position:absolute;
+    z-index: 999;
+  font-family: serif;
+  font-weight: bold;
+  transition: 0.8s ease;
+
+}
+.alerta-aside-4{
+    margin-top: 620px;
+    margin-left: 230px;
+    position:absolute;
+    z-index: 999;
+  font-family: serif;
+  font-weight: bold;
+  transition: 0.8s ease;
+
+}
+
+.alert-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* ESTILOS A LA SECCION 1: INICIO */
+.inicio { 
+    flex:1;
+    background-color: rgba(216, 214, 214, 0.986);
+}
+
+
+
+/* ESTILOS A LA SECCION 2: QUIENES SOMOS */
+
+.section-2 { 
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border-style: solid;
+    background-image: url('https://images5.alphacoders.com/707/707115.jpg');
+    height: 600px;
+    text-align: center;
+    padding-top: 50px;
+    opacity: .5;
+    margin-bottom: 0px;
+}
+
+
+.img-section2 { 
+    position: absolute;
+    top: 920px;
+    left: 25%;
+    z-index: 998;
+    margin-bottom: 0px;
+        
+}
+
+
+
+
+/* ESTILO A LA SECCION 3: CONTACTO */
+
+.img-section3 { 
+padding-top: 20px;
+
+}
+#section3 { 
+    margin-top: 0px;
+  
+    background-color: rgba(247, 247, 247, 0.925);
+}
+
+/* ESTILO A LA SECCION 4:  EQUIPO */
+
+
+.section-4 { 
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border-style: solid;
+    background-image: url('https://images8.alphacoders.com/122/thumbbig-1225397.webp');
+    height: 600px;
+    text-align: center;
+    padding-top: 50px;
+    opacity: .5;
+    margin-bottom: 0px;
+}
+.img-section4 { 
+    position: absolute;
+    top: 2060px;
+    left: 10%;
+    z-index: 998;
+    margin-bottom: 0px;
+        
+}
+
+
+
+/* ESTILOS BOTON UP */
+.botonUp { 
+    position: fixed;
+        background-color: rgba(60, 151, 0, 0.911);
+        width: 50px;
+        height: 50px;
+        margin-top: 460px;
+        margin-left: 10px;
+        cursor: pointer;
+        border-style: solid;
+        border-radius: 10px;
+      z-index: 999;
+      transition: all 0.8s ease-out;
+        
+    }
+    
+    .hidden-btn-up {
+        opacity: 0;
+        visibility: hidden;
+       
+    }
+    
+    /* CONTADOR */
+    .cuerpo {
+        z-index: 800;
+        height: 180px;
+        position: absolute;
+        text-align:  left;
+        margin-left: 5px;
+        background-color: rgb(224, 224, 224);
+        border-style: solid;
+    }
+
+    .titulo { 
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    /* CONTADOR--- para que el textarea no se redimensione */
+    #text {
+        resize: none;
+    }

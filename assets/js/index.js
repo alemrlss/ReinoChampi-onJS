@@ -139,21 +139,13 @@ window.addEventListener('click',(e) => {
         $cuerpoContador.classList.remove('hiddenContador')
         $contenedorContador.classList.remove('hiddenContador')
         $textareaContador.value = ''
-
-       char.innerHTML = "0 Caracteres" //char
+        char.innerHTML = "0 Caracteres" //char
 		lines.innerHTML = "0 Lineas" //lines
 		symbols.innerHTML = "0 Symbolos"
-       
-       
     }
-
-
-
-
     if(e.target.matches('.cierraContador')) {
         $cuerpoContador.classList.add('hiddenContador')
-        $contenedorContador.classList.add('hiddenContador')
-        
+        $contenedorContador.classList.add('hiddenContador') 
     }
 })
 

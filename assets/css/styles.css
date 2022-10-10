@@ -195,7 +195,7 @@ padding-top: 20px;
     background-color: transparent;
     border-style: solid;
     background-image: url('https://images8.alphacoders.com/122/thumbbig-1225397.webp');
-    height: 600px;
+    height: 950px;
     text-align: center;
     padding-top: 50px;
     opacity: .5;
@@ -204,13 +204,89 @@ padding-top: 20px;
 .img-section4 { 
     position: absolute;
     top: 2060px;
-    left: 10%;
+    left: 0%;
     z-index: 998;
     margin-bottom: 0px;
         
 }
+.img_equipo_logo {
+        margin-left: 120%;
+}
+
+.img_equipo_1 {
+    width: 300px;
+    height: 150px;
+    margin-left: 12%;   
+    margin-top: 2%;
+
+}
+.img_equipo_2 {
+    width: 300px;
+    height: 150px;
+    margin-left: 12%;   
+    margin-top: 2%;
+
+}
+
+.card-body { 
+    width: 400px;
+    height: 300px;
+
+}
+
+.card {
+    border-radius: 100px;
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 400px;
+    height: 370px;
+}
+.card-title {
+    text-align: center;
+    
+}
+
+.card-text {
+    padding-left: 8%;
+}
+.btn-equipo_1 {
+
+    background-color: rgb(243, 54, 171) !important;
+    border-color: aliceblue;
+}
+.btn-equipo_1 a {
+text-decoration: none;
+color: white;
+}
+.btn-equipo_2 a {
+    text-decoration:solid;
+    color: white;
+    }
+
+.btn-equipo_1:hover {
+
+    background-color: rgb(243, 54, 171) !important;
+    border-color: rgb(68, 218, 255);
+}
 
 
+
+.btn-equipo_2 {
+
+    background-color: rgb(59, 243, 142) !important;
+    border-color: aliceblue;
+}
+
+.btn-equipo_2:hover {
+
+    background-color: rgb(59, 243, 142) !important;
+    border-color: rgb(68, 218, 255);
+}
+
+.link_card {
+    text-decoration: none;
+}
 
 /* ESTILOS BOTON UP */
 .botonUp { 

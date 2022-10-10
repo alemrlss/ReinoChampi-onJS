@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #191919; 
+    background: radial-gradient(ellipse at center, #4E0505 0%, #000000 70%);
+    color: #C1C1C1;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.reloj{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #C1C1C1;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 20px rgba(220, 0, 11, .69), 0 0 20px rgba(220, 0, 11, .69);
+    transition: ease-in-out;
+    transition: 2s;
+}
+
+.tiempo{
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+.fecha{
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}

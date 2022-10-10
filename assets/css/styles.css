@@ -3,19 +3,7 @@
 .navbar-bg { 
     background-color: rgb(245, 243, 243) !important;
 }
-.navbar {
-    box-shadow: 5px 5px 15px gray !important;
-  
-    top: 0 !important; 
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    opacity: 1;
-    transition: all 0.1s ease-out;
-}
-
-
-
+/*  */
 .nav-item {
     font-weight: bold !important; 
     font-size: 20px;

@@ -249,3 +249,8 @@ padding-top: 20px;
         padding-top: 2px;
         padding-bottom: 2px;
     }
+
+    /* CONTADOR--- para que el textarea no se redimensione */
+    #text {
+        resize: none;
+    }

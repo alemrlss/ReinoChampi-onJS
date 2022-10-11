@@ -94,12 +94,7 @@ window.addEventListener('click',e=>{
 
   if (e.target.matches('.botonUp')){
     window.scrollTo(0,0)
-    window.scrollTo(0,0)
-    window.scrollTo(0,0)
-    window.scrollTo(0,0)
-    window.scrollTo(0,0)
-    window.scrollTo(0,0)
-    window.scrollTo(0,0)
+
   }
 })
 

@@ -152,6 +152,109 @@ window.addEventListener('click',(e) => {
 
 
 
-
-
 /* FIN BOTON DEL CONTADOR */
+
+
+/* CARRUSEL */
+
+const $flecha_iz = document.querySelector('.flechaDerecha')
+const $flecha_der = document.querySelector('.flechaIzquierda')
+const $item1 = document.querySelector('.item-1')
+const $item2 = document.querySelector('.item-2')
+const $item3 = document.querySelector('.item-3')
+const $item4 = document.querySelector('.item-4')
+const $item5 = document.querySelector('.item-5')
+const $item6 = document.querySelector('.item-6')
+const $item7 = document.querySelector('.item-7')
+const $item8 = document.querySelector('.item-8')
+
+
+window.addEventListener('click',e=>{
+
+    if (e.target.matches('.derecha')) {
+        if ($item1.classList.contains('hidden') === false) {
+            $item1.classList.add('hidden')
+            $item2.classList.remove('hidden')
+        } else if ($item2.classList.contains('hidden') === false) {
+            $item2.classList.add('hidden')
+            $item3.classList.remove('hidden')
+        } else if ($item3.classList.contains('hidden') === false) { 
+            $item3.classList.add('hidden')
+            $item4.classList.remove('hidden')
+        }  else if ($item4.classList.contains('hidden') === false) { 
+            $item4.classList.add('hidden')
+            $item5.classList.remove('hidden')
+        }  else if ($item5.classList.contains('hidden') === false) { 
+            $item5.classList.add('hidden')
+            $item6.classList.remove('hidden')
+        }  else if ($item6.classList.contains('hidden') === false) { 
+            $item6.classList.add('hidden')
+            $item7.classList.remove('hidden')
+        }  else if ($item7.classList.contains('hidden') === false) { 
+            $item7.classList.add('hidden')
+            $item8.classList.remove('hidden')
+        }  else if ($item8.classList.contains('hidden') === false) { 
+            $item8.classList.add('hidden')
+            $item1.classList.remove('hidden')
+        }    
+    }
+
+    if (e.target.matches('.izquierda')) {
+        if ($item8.classList.contains('hidden') === false) {
+            $item8.classList.add('hidden')
+            $item7.classList.remove('hidden')
+        } else if ($item7.classList.contains('hidden') === false) {
+            $item7.classList.add('hidden')
+            $item6.classList.remove('hidden')
+        } else if ($item6.classList.contains('hidden') === false) { 
+            $item6.classList.add('hidden')
+            $item5.classList.remove('hidden')
+        } else if ($item5.classList.contains('hidden') === false) { 
+            $item5.classList.add('hidden')
+            $item4.classList.remove('hidden')
+        } else if ($item4.classList.contains('hidden') === false) { 
+            $item4.classList.add('hidden')
+            $item3.classList.remove('hidden')
+        } else if ($item3.classList.contains('hidden') === false) { 
+            $item3.classList.add('hidden')
+            $item2.classList.remove('hidden')
+        } else if ($item2.classList.contains('hidden') === false) { 
+            $item2.classList.add('hidden')
+            $item1.classList.remove('hidden')
+        } else if ($item1.classList.contains('hidden') === false) { 
+            $item1.classList.add('hidden')
+            $item8.classList.remove('hidden')
+        } 
+
+    }
+})
+
+
+setInterval(() => {
+    if ($item1.classList.contains('hidden') === false) {
+        $item1.classList.add('hidden')
+        $item2.classList.remove('hidden')
+    } else if ($item2.classList.contains('hidden') === false) {
+        $item2.classList.add('hidden')
+        $item3.classList.remove('hidden')
+    } else if ($item3.classList.contains('hidden') === false) { 
+        $item3.classList.add('hidden')
+        $item4.classList.remove('hidden')
+    }  else if ($item4.classList.contains('hidden') === false) { 
+        $item4.classList.add('hidden')
+        $item5.classList.remove('hidden')
+    }  else if ($item5.classList.contains('hidden') === false) { 
+        $item5.classList.add('hidden')
+        $item6.classList.remove('hidden')
+    }  else if ($item6.classList.contains('hidden') === false) { 
+        $item6.classList.add('hidden')
+        $item7.classList.remove('hidden')
+    }  else if ($item7.classList.contains('hidden') === false) { 
+        $item7.classList.add('hidden')
+        $item8.classList.remove('hidden')
+    }  else if ($item8.classList.contains('hidden') === false) { 
+        $item8.classList.add('hidden')
+        $item1.classList.remove('hidden')
+    }
+
+}, 3000);

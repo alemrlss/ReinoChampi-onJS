@@ -141,6 +141,80 @@
     flex:1;
     background-color: rgba(216, 214, 214, 0.986);
 }
+.item-carrusel {
+    position: absolute;
+    padding-left: 100px;
+
+}
+.carrusel {
+    margin-top: 50px;
+}
+.carrusel img {
+    margin-top: 20px;
+    width: 900px;
+    height: 500px;
+    z-index: 0;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+   
+}
+.hidden { 
+    opacity: 0;
+    visibility: hidden;
+}
+.izquierda {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 120px;
+    top: 500px;
+    font-size: 30px;
+    border-radius: 100%;
+    font-weight: bolder;
+    opacity: 0.6;
+}
+.izquierda:hover {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 120px;
+    top: 500px;
+    font-size: 30px;
+    border-radius: 100%;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.derecha {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 440px;
+    top: 500px;
+    font-size: 30px;
+    border-radius: 100%;
+    font-weight: bolder;
+    opacity: 0.6;
+}
+.derecha:hover {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 440px;
+    top: 500px;
+    font-size: 30px;
+    border-radius: 100%;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.item-carrusel { 
+    transition-property: opacity, left;
+    transition-duration: 1.5s, 5s, 2s, 1s;
+}
+
+
+
 
 
 
@@ -261,6 +335,8 @@ padding-top: 20px;
 
     background-color: rgb(243, 54, 171) !important;
     border-color: aliceblue;
+    position: absolute;
+    left: 140px;
 }
 .btn-equipo_1 a {
 text-decoration: none;
@@ -280,9 +356,12 @@ color: white;
 
 
 .btn-equipo_2 {
-
+   
     background-color: rgb(59, 243, 142) !important;
     border-color: aliceblue;
+    position: absolute;
+    left: 140px;
+ 
 }
 
 .btn-equipo_2:hover {
@@ -319,14 +398,14 @@ color: white;
     /* CONTADOR */
     .cuerpo {
         z-index: 800;
-        height: 180px;
+        height: 160px;
         position: absolute;
         text-align:  left;
         background-color: rgb(202, 202, 202);
         box-shadow: 5px 5px 20px rgb(0, 0, 0);
         border-radius: 20px;
-        margin-left: 30%;
-        margin-top: 2%;
+        margin-left: 2%;
+        margin-top: 14px;
         width: 280px;
 
     }
@@ -354,8 +433,9 @@ color: white;
         box-shadow: 10px 10px 30px rgb(0, 0, 0);
         cursor:pointer;
         position: absolute;
-        margin-left: 65%;
+        margin-left: 60%;
         margin-top: 20px;
+        z-index: 998;
     }
     .img-contador { 
         padding-top: 13px;

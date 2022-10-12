@@ -30,11 +30,24 @@
         </a>
 
         <!-- BARRA DE NAVEGACION SECCIONES -->
-        <div
-          class="collapse navbar-collapse sections-nav-bar"
-          id="navbarSupportedContent"
+        <div  class="collapse navbar-collapse sections-nav-bar" id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mbc-2 mb-lg-0">
+            
+          
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section1"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section2">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section3"
+                >Contacto</a
+              >
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link active"
@@ -46,30 +59,18 @@
               >
 
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Albany</a></li>
-                <li><a class="dropdown-item" href="#">Alejandro</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">ITEM</a></li>
+                <li><a class="dropdown-item" href="#peach">Albany</a></li>    <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#yoshi">Alejandro</a></li>
+            
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#section3"
-                >Contacto</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#section2">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#section1"
-                >Inicio</a
-              >
-            </li>
+
+
           </ul>
           <div class="reloj"></div>
           <a class="navbar-brand" href="#">
             <img
-              src="/assets/img/logo-tubitoplanta.png"
+              src="/assets/img/favicon_1.png"
               alt="Bootstrap"
               width="50"
               height="50"
@@ -78,6 +79,20 @@
         </div>
       </div>
     </nav>
+    <!-- BARRA DE NAVEGACION FIXED. -->
+   <div class="navFix hidden">  
+    <img class="img_navfixed" src="/assets/img/logo-navbar.png" alt="Bootstrap" width="80" height="80"/> 
+    </div>
+   <!-- MENU FLOTANTE -->
+   <div class="panel-menu-flotante hidden-panel"> 
+    <div class="menu-flotante">
+          <img src="/assets/img/estrella-mario.png" alt="" width="60px" height="60px">
+        <a href="#section1">Inicio</a>
+        <a href="#section2">Quienes<br>Somos</a>
+        <a href="#section3">Contacto</a>
+        <a href="#section4">Equipo</a>
+    </div>
+  </div>
 
     <div class="espacios"></div>
     <!-- BOTON UP. -->
@@ -153,34 +168,51 @@
 
           <div class="item-carrusel item-1"> 
             <img src="https://images6.alphacoders.com/912/thumbbig-912386.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br> Personajes de la saga de Mario Bro's. Donde el objetivo es rescatar a la princesa <b>Peach</b> sin importar los monstruos de cada Mundo!</p>
+            </div>
           </div>
 
           <div class="item-carrusel item-2 hidden"> 
             <img src="https://images4.alphacoders.com/203/thumbbig-203746.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br> <br> Mario recorriendo un nivel del Mundo Champiñon para cumplir su objetivo: Salvar a la princesa!</p>
+            </div>
           </div>
 
           <div class="item-carrusel item-3 hidden"> 
-            <img src="https://images8.alphacoders.com/118/thumbbig-1186584.webp" alt="">
+            <img src="https://images.alphacoders.com/645/thumbbig-645975.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br><br>  Goombas: Enemigos de los niveles del Reino Champiñon </p>
+            </div>
           </div>
 
           <div class="item-carrusel item-4 hidden"> 
             <img src="https://images6.alphacoders.com/646/thumbbig-646006.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img">Mario bro's el protagonista de la Saga junto a su compañero Luigui utilizando todas las habilidades posibles</p>
+            </div>
           </div>
 
           <div class="item-carrusel item-5 hidden"> 
             <img src="https://images8.alphacoders.com/943/thumbbig-943661.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> CAMBIAR ESTA IMAGEN Y AGREGARLE DESCRIPCION.</p>
+            </div>
+           
           </div>
 
           <div class="item-carrusel item-6 hidden"> 
             <img src="https://images3.alphacoders.com/646/thumbbig-646028.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br> Este es un atributo de la Saga. Es una vida extra para cualquier personaje seleccionado durante el videojuego. Enhorabuena! </p>
+            </div>
           </div>
-
           <div class="item-carrusel item-7 hidden"> 
-            <img src="https://images.alphacoders.com/645/thumbbig-645975.webp" alt="">
+            <img src="https://images8.alphacoders.com/118/thumbbig-1186584.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br><br> Mario feliz por cumplir con su objetivo de salvar a la Princesa de Bowser y sus aliados!</p>
+            </div>
           </div>
+    
 
           <div class="item-carrusel item-8 hidden"> 
             <img src="https://images4.alphacoders.com/742/thumbbig-742541.webp" alt="">
+            <div class="parrafo"> <p class="parrafo-img"> <br> Mario durante su aventura! Afrontando a los enemigos necesarios para rescatar a la princesa: Peach!</p>
+            </div>
           </div>
 
 
@@ -202,15 +234,19 @@
             alt="ESTRELLA"
           />
         </div>
+        
         <div class="div-img">
           <img class="img2" src="/assets/img/super-mario-toad.png" alt="TOAD" />
         </div>
+        
+        
         <div class="div-img">
-          <img class="img3" src="/assets/img/Mario-Bros-png.png" alt="MARIO" />
+          <img class="img3" src="/assets/img/Yoshi.png" alt="MARIO" />
         </div>
         <div class="div-img">
-          <img class="img4" src="/assets/img/Yoshi.png" alt="YOSHI" />
+          <img class="img4" src="/assets/img/Mario-Bros-png.png" alt="YOSHI" />
         </div>
+
       </aside>
     </div>
 
@@ -221,22 +257,78 @@
       <img src="/assets/img/quienes-somos.png" alt="" />
     </div>
 
+
+
     <!-- SECTION CONTACTO -->
-    <div id="section3" class="section">
+    <div id="section3" class="section section-3">
       <div class="img-section3">
         <img src="/assets/img/contacto.png" alt="" />
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="contacto">
+          <div class="imgContacto"> 
+            <img src="/assets/img/Yoshi.png" alt="">
+          </div>
+          <div class="formContacto">
+            <form>
+              <section class="form-contacto-reino">
+
+                  <h4 class="titulo_contacto"> CONTACTANOS</h4>
+              
+                  <div class="nombre_contacto"> <img class="img_avatar" src="/assets/img/avatar.png" alt="">
+                    <input class="input_nombre" type="text" name="nombres" id="nombre"
+                        placeholder="Ingrese su nombre">
+                </div>
+                <div class="correo_contacto"> <img class="img_avatar" src="/assets/img/avatar.png" alt="">
+                  <input class="input_correo" type="text" name="nombres" id="correo"
+                  placeholder="Ingrese su correo">
+              </div>
+              <div class="mensaje_contacto"> <img class="img_mensaje" src="/assets/img/avatar.png" alt="">
+                <textarea id="text" placeholder="Escribenos tu mensaje aqui..." class="textarea_mensaje" id="mensaje"></textarea>
+
+              
+                    
+                 
+            </div>
+        
+                  <div><button input="submit" value="AGREGAR" class="botons">
+                         AGREGAR 
+                      </button></div>
+              </section>
+          </form>
+          
+
+
+
+          </div>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- SECTION EQUIPO -->
     <div id="section4" class="section section-4"></div>
     <div class="img-section4">
+      <br><br><br><br><br><br>
       <img class="img_equipo_logo" src="/assets/img/equipo.png" alt="" />
 
       <div class="cardsEquipo">
         <!-- CARD 1 -->
-        <div class="card mb-3">
+        <div class="card mb-3" id="peach">
           <div class="imgPeach">
             <img class="img_equipo_1"src="/assets/img/peach.png" class="card-img-top"alt="..."/>
           </div>
@@ -251,7 +343,7 @@
           </p>
         </div>
         <!-- CARD 2 -->
-        <div class="card mb-3">
+        <div class="card mb-3" id="yoshi">
           <div class="imgYoshi">
 
             <img class="img_equipo_2" src="/assets/img/yoshi_equipo.png"

@@ -257,4 +257,26 @@ setInterval(() => {
         $item1.classList.remove('hidden')
     }
 
-}, 3000);
+}, 4000);
+/* CARRUSEL */
+
+
+
+/* NAV FIXED */
+const $navFix = document.querySelector('.navFix')
+const $menuFlotante = document.querySelector('.panel-menu-flotante')
+window.addEventListener('scroll',e=> { 
+    if (scrollY > 70) {
+       $navFix.classList.remove('hidden')
+     
+    } else { 
+        $navFix.classList.add('hidden')
+        $menuFlotante.classList.add('hidden-panel')
+    }
+})
+window.addEventListener('click',e=>{
+    if(e.target.matches('.navFix') || e.target.matches('.img_navfixed')){   
+        $menuFlotante.classList.toggle('hidden-panel')
+    } 
+})
+/* NAV FIXED FINAL */

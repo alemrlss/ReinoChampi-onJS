@@ -1,0 +1,96 @@
+.imagen { 
+height: 200px;
+width: 500px;
+border-radius: 100px;
+
+}
+
+.mio { 
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.color { 
+    color:orange
+}
+
+
+.boton { 
+    background-color: rgb(243, 228, 180) !important;
+    color:black !important;
+    border-color: rgb(252, 230, 186) !important;
+}
+.boton:hover { 
+    background-color: rgb(243, 217, 132) !important;
+    color:black !important;
+    border-color: rgb(252, 230, 186) !important;
+}
+.boton:active { 
+    background-color: rgb(243, 228, 180) !important;
+    color:black !important;
+    border-color: rgb(252, 230, 186) !important;
+    border-style: none !important;
+}
+
+.images_2 {
+ 
+    height: 200px;
+}
+  
+.ima { 
+    height: 300PX;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.im { 
+    height: 120px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.equipo { 
+    text-align: center;
+}
+
+.cartas { 
+    height: 300px;
+}
+
+.eq { 
+    color:rgb(250, 192, 84)
+}
+.eq2 { 
+    color:rgb(252, 237, 210)
+}
+
+
+
+.card:hover { 
+
+border-style: solid;
+border-color: brown;
+}
+
+.carta:hover { 
+    width: 420px;
+    height: 600px;
+}
+
+.redes { 
+    width: 40px;
+    height: 40px;
+    display:none;
+    position: absolute;
+}
+
+.f { 
+    margin-left: 40px;
+}
+.w { 
+    margin-left: 80px;
+}
+.i { 
+    margin-left: 120px;
+}

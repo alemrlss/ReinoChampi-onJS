@@ -391,30 +391,31 @@ position: absolute;
     
     background-color: transparent;
     width: 100%;
-    height: 620px;
+    height: 640px;
     display: flex;
    
 }
 
 .imgContacto {
-    margin: 60px;
-    width: 20%;
-    height: 80%;
-    margin-right: 460px;
-   
+    margin-top: 0px;
+    background-color: transparent;
+    margin-left: 80px;
 }
 .imgContacto img { 
-    width: 380px;
-    height: 380x;
+    width: 600px;
+    height: 600px;
     background-color:transparent;
 }
 
 .formContacto {
     border-radius: 30px;
     background-color: transparent;
-    margin: 60px; 
+    margin-left: 180px;
+    margin-top: 30px;
     width: 30%;
     height: 90%;
+ 
+    
 }
 
 .form-contacto-reino{
@@ -460,7 +461,7 @@ position: absolute;
 
    
     width: 250px;
-    background: #f7b707fb;
+    background: #e7e7e7fb;
     border: none;
     padding: 12px;
     color: black;
@@ -474,7 +475,7 @@ position: absolute;
 
    
     width: 260px;
-    background: rgba(247, 187, 20, 0.877);
+    background: #b9b8b8fb;
     border: none;
     padding: 12px;
     color: rgb(0, 0, 0);
@@ -508,6 +509,7 @@ position: absolute;
     display:flex;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0px;
  
     
   }
@@ -555,7 +557,7 @@ position: absolute;
     width: 400px;
     height: 120px;
     border-color: #f0f188;
-    margin-top: 50px;
+    
     
   }
 
@@ -570,7 +572,7 @@ position: absolute;
   
   }
   .img_mensaje {
-    margin-top: 80px;
+    margin-top: 30px;
       width: 90px;
     height: 75px;
     margin-right: 10px; 

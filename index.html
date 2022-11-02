@@ -125,10 +125,10 @@
       lomo, <br />
       ayudándoles a superar los niveles con mayor fácilidad.
     </div>
-
     <!-- SECTION INICIO -->
     <div id="section1" class="section section-1">
      <!-- CONTADOR -->
+
      <div class="cuerpo hiddenContador">
       <div class="contenedor hiddenContador">
         <div class="titulo">
@@ -162,6 +162,44 @@
         
         <img src="/assets/img/inicio.png" alt="" class="logo-inicio" />
         <br><br><br>
+
+
+        <!-- POKEDEX -->
+        <div class="pokedex hidden">
+        <img
+          class="cierraPoke"
+          src="/assets/img/img-x-contador.png"
+          width="20px"
+          height="20px"
+          alt=""
+        />
+          <form class="form-pok" action="" onsubmit="searchPokemon(event)">
+              <input class="input-pok" type="text" name="pokemon" autocomplete="off">
+          </form>
+          <div data-poke-card class="poke-card">
+            <div data-poke-name>Pokedex</div>
+              <div data-poke-img-container class="img-container">
+                  <img data-poke-img class="poke-img" src="/assets/img/poke-shadow.png"/>
+              </div>
+              <div data-poke-id></div>
+              <div data-poke-types class="poke-types"></div>
+              <div data-poke-stats class="poke-stats"></div>
+          </div>
+         </div>
+
+
+
+
+ <!-- BOTON POKEDEX -->
+        <div class="botonPokedex">
+          <img
+            class="img-pokedex"
+            src="/assets/img/pokede-image.png"
+            alt=""
+          />
+        </div>
+
+
 
         <!-- CARRUSEL -->
         <div class="carrusel">
